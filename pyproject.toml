@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ai-powered-recipe-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["cesarpyxis <cesar.gonzalez@pyxis.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.5"
+openai = "^1.66.3"
+ipython = "^9.0.2"
+notebook = "^7.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
